@@ -1,45 +1,65 @@
-/* Regex('https?://moodle\.sgs\.org(?!\/login\/index\.php).*') */
+@-moz-document regexp('https?://moodle\.sgs\.org(?!\/login\/index\.php).*') {
+	/* Regex: https?://moodle\.sgs\.org(?!\/login\/index\.php).* */
 
-.navbar-inner, #coursesearch, .sitelink, .homelink, .section.main.clearfix.hidden, .ical-link.m-l-1, #inst1457, #inst2256, #inst3179, #inst1458, .calendar_filters.filters {
-	visibility: hidden;
-	display: none;
+	.navbar-inner, #coursesearch, .sitelink, .homelink, .section.main.clearfix.hidden, .ical-link.m-l-1, #inst1457, #inst2256, #inst3179, #inst1458, .calendar_filters.filters {
+		visibility: hidden;
+		display: none;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	body {
+		background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/master/images/MainBackground.jpg?raw=true");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	.content {
+		background-color:rgba(245, 245, 245, .8);
+		border-radius: 5px;
+		color:rgb(150, 1, 8);
+	}
+	.section.main.clearfix.current {
+		background: transparent;
+	}
+
+	.coursebox.clearfix.odd.first, .coursebox.clearfix.odd {
+		background-color:rgba(245, 245, 245, .95);
+	}
+
+	.paging.paging-morelink {
+		background-color:rgba(245, 245, 245, .95);
+		border-radius: 5px;
+		width: 70px;
+	}
+	.logininfo {
+		background-color:rgba(245, 245, 245, .95);
+		border-radius: 5px;
+		width: 250px;
+		position: relative;
+		margin: auto;
+	}
+
+	td {
+		background-color:rgba(245, 245, 245, .95);
+	}
 }
 
-h1 {
-	text-align: center;
-}
+@-moz-document url('https://moodle.sgs.org/login/index.php') {
+	/* URL: https://moodle.sgs.org/login/index.php */
 
-body {
-	background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/Stylish/images/IMG_0484.jpg?raw=true");
-	background-size: cover;
-    background-repeat: no-repeat;
-}
-.content {
-	background-color:rgba(245, 245, 245, .8);
-	border-radius: 5px;
-	color:rgb(150, 1, 8);
-}
-.section.main.clearfix.current {
-	background: transparent;
-}
+	.navbar-static-top .container, .navbar-fixed-top, .navbar-fixed-bottom, .desc, .guestform, .forgetpass, .navbar-inner, #page-footer, #page-navbar, #yui_3_17_2_1_1508538891861_30 {
+		visibility: hidden !important;
+	}
 
-.coursebox.clearfix.odd.first, .coursebox.clearfix.odd {
-	background-color:rgba(245, 245, 245, .95);
-}
+	body {
+		background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/master/images/Login.jpg?raw=true") !important;
+		background-size: 100%;
+		
+	}
 
-.paging.paging-morelink {
-	background-color:rgba(245, 245, 245, .95);
-	border-radius: 5px;
-	width: 70px;
-}
-.logininfo {
-	background-color:rgba(245, 245, 245, .95);
-	border-radius: 5px;
-	width: 250px;
-	position: relative;
-	margin: auto;
-}
-
-td {
-	background-color:rgba(245, 245, 245, .95);
+	h1 {
+		text-align: center;
+	}
 }
