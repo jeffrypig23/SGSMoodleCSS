@@ -11,9 +11,8 @@ h1 {
 }
 
 body {
-	background-image: url("https://instagram.fsnc1-1.fna.fbcdn.net/vp/6cadd5a314f61323928843c83e996d89/5B5AED1F/t51.2885-15/e35/19533786_199286900597938_1249633542363676672_n.jpg"); /* TODO: Fix this broken link */
+	background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/master/images/IMG_1915%202.jpg");
 	background-size: cover;
-	// background-size: 100%;
     background-repeat: no-repeat;
 }
 .content {
