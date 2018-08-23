@@ -2,47 +2,47 @@
 	/* Regex: https?://moodle\.sgs\.org(?!\/login\/index\.php).* */
 
 	.navbar-inner, #coursesearch, .sitelink, .homelink, .section.main.clearfix.hidden, .ical-link.m-l-1, #inst1457, #inst2256, #inst3179, #inst1458, .calendar_filters.filters {
-		visibility: hidden;
-		display: none;
+		visibility: hidden !important;
+		display: none !important;
 	}
 
 	h1 {
-		text-align: center;
+		text-align: center !important;
 	}
 
 	body {
-		background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/master/images/MainBackground.jpg?raw=true");
-		background-size: cover;
-		background-repeat: no-repeat;
+		background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/master/images/MainBackground.jpg?raw=true") !important;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
 	}
 	.content {
-		background-color:rgba(245, 245, 245, .8);
-		border-radius: 5px;
-		color:rgb(150, 1, 8);
+		background-color:rgba(245, 245, 245, .8) !important;
+		border-radius: 5px !important;
+		color:rgb(150, 1, 8) !important;
 	}
 	.section.main.clearfix.current {
-		background: transparent;
+		background: transparent !important;
 	}
 
 	.coursebox.clearfix.odd.first, .coursebox.clearfix.odd {
-		background-color:rgba(245, 245, 245, .95);
+		background-color:rgba(245, 245, 245, .95) !important;
 	}
 
 	.paging.paging-morelink {
-		background-color:rgba(245, 245, 245, .95);
-		border-radius: 5px;
-		width: 70px;
+		background-color:rgba(245, 245, 245, .95) !important;
+		border-radius: 5px !important;
+		width: 70px !important;
 	}
 	.logininfo {
-		background-color:rgba(245, 245, 245, .95);
-		border-radius: 5px;
-		width: 250px;
-		position: relative;
-		margin: auto;
+		background-color:rgba(245, 245, 245, .95) !important;
+		border-radius: 5px !important;
+		width: 250px !important;
+		position: relative !important;
+		margin: auto !important;
 	}
 
 	td {
-		background-color:rgba(245, 245, 245, .95);
+		background-color:rgba(245, 245, 245, .95) !important;
 	}
 }
 
@@ -55,11 +55,11 @@
 
 	body {
 		background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/master/images/Login.jpg?raw=true") !important;
-		background-size: 100%;
-		
+		background-size: 100% !important;
+
 	}
 
 	h1 {
-		text-align: center;
+		text-align: center !important;
 	}
 }
