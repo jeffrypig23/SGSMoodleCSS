@@ -1,5 +1,4 @@
-/* Regex: https?://moodle\.sgs\.org(?!\/login\/index\.php).* */
-
+/* Regex('https?://moodle\.sgs\.org(?!\/login\/index\.php).*') */
 
 .navbar-inner, #coursesearch, .sitelink, .homelink, .section.main.clearfix.hidden, .ical-link.m-l-1, #inst1457, #inst2256, #inst3179, #inst1458, .calendar_filters.filters {
 	visibility: hidden;
@@ -11,7 +10,7 @@ h1 {
 }
 
 body {
-	background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/master/images/IMG_0484.jpg?raw=true");
+	background-image: url("https://github.com/jeffrypig23/SGSMoodleCSS/blob/Stylish/images/IMG_0484.jpg?raw=true");
 	background-size: cover;
     background-repeat: no-repeat;
 }
